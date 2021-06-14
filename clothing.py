@@ -1,10 +1,12 @@
+# Basic classification: Classify images of clothing
+
 import tensorflow as tf
 from tensorflow import keras
 
 import numpy as np
 import matplotlib.pyplot as plt 
 
-print(tf.__version__)
+#print(tf.__version__)
 
 fashion_mnist = keras.datasets.fashion_mnist
 
@@ -13,7 +15,7 @@ fashion_mnist = keras.datasets.fashion_mnist
 class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat',
                'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
 
-print(train_labels)
+#print(train_labels)
 
 """ plt.figure()
 plt.imshow(train_images[0])
